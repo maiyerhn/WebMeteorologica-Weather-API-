@@ -6,10 +6,12 @@ window.addEventListener("load", () => {
             lon = posicion.coords.longitude
             lat = posicion.coords.latitude
 
-            const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&exclude={part}&appid={66b40fc04c4573ca11f70b421f5e367e}`;
+            const url = `https://my.meteoblue.com/packages/basic-15min_basic-day_current_clouds-1h?apikey=xPLIVU8rANJpvtFq&lat=${lat}&lon=${lon}&asl=279&format=json`;
             fetch(url)
-            .then{ response => {return response.json() }}
-            .then{data => ()}
+            .then( response => {return response.json() })
+            .then(data => {
+                console.log(data);
+            })
         })
     }
 });
