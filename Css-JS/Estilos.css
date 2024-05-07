@@ -1,0 +1,28 @@
+.objetos{
+    background-color: #59a5f5;
+    border-radius: 100%;
+    border-left: 30px;
+    display:  inline-block;
+    height: 200px;
+    width: 200px;
+}
+:first-child section{
+    margin-left: 200px;
+}
+
+header center p{
+    font-size: xx-large;
+    height: 50px;
+    margin-top: 15px;
+    width: 100%;
+
+}
+header{
+    background-color: #5c5c5c;
+    margin: 0;
+    width: 100%;
+}
+footer center p{
+    background: #5c5c5c;
+    font-size: xx-large;
+}
