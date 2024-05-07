@@ -13,6 +13,7 @@ window.addEventListener("load", () => {
                 console.log(data);
                 a = Math.round(data.data_current.temperature);
                 document.getElementById("temp-valor").innerHTML = a;
+                
             })
         })
     }
